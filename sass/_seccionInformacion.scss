@@ -1,0 +1,41 @@
+.slider_info {
+    .informacion {
+        width: 100%;
+    }
+
+        article {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide {
+            background: white;
+            width: 100%;
+            left: 100%;
+            padding: 20px 80px;
+            position: absolute;
+
+        }
+
+    .flecha-info {
+        font-size: 35px;
+        line-height: 35px;
+        color: #A97132;
+        position: absolute;
+        top: 50%;
+        z-index: 1000;
+    }
+
+    .flecha-info:hover {
+        color: #CFB789;
+    }
+
+    .anterior {
+        left: 20px;
+    }
+
+    .siguiente {
+        right: 20px;
+    }
+}

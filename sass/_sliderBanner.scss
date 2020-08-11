@@ -1,0 +1,40 @@
+.slider_banner {
+    overflow: hidden;
+    z-index: 1000;
+    position: relative;
+
+    .banner {
+        position: relative;
+        width: 100%;
+    }
+
+    .banner img{
+        vertical-align: top;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .flecha-banner {
+        font-size: 35px;
+        line-height: 35px;
+        color: $colorSec;
+        position: absolute;
+        top: 50%;
+        z-index: 1100;
+    }
+
+    .flecha-banner:hover {
+        color: $colorMedio2;
+    }
+
+    .anterior {
+        left: 20px;
+    }
+
+    .siguiente {
+        right: 20px;
+    }
+
+}

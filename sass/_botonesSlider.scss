@@ -1,0 +1,24 @@
+.slider_info {
+    .botones {
+        width: 100%;
+    
+
+        span {
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            margin:  0 10px;
+            border-radius: 50%;
+            background: #e6e6e6;
+        }
+
+        .active {
+            background:  #5CD0E2;
+        }
+
+        .active:hover {
+            background: #78DEA3;
+        }
+
+    }
+}

@@ -1,0 +1,49 @@
+.slider_info {
+    .informacion {
+        .nombre {
+            color: 444;
+            font-size: 38px;
+            line-height: 38px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .trabajo {
+            color: #32a0f5;
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 16px;
+        }
+
+        .pais {
+            color: #8d8d8d;
+            font-size: 18px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .pais { 
+            img {
+                position: relative;
+                top: 2px;
+                margin-right: 10px;
+            }
+        }
+
+        .texto {
+            color: #5CD0E2;
+            font-size: 18px;
+            line-height: 24px;
+            }
+
+        .subtitulo {
+            color:#A97132;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
+}
